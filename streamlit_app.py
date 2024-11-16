@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+st.set_page_config(page_title="AI Character Study Sessions")
+
 # Define API URLs for each AI assistant
 API_URLS = {
     "Megatron": "https://flowise-9kx9.onrender.com/api/v1/prediction/1dc150ce-375b-46d3-9eb3-53ae6d73a5e5",
